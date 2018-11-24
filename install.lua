@@ -1,0 +1,1 @@
+shell.execute('cp -r ./usr/* /usr/');
