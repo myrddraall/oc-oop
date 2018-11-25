@@ -7,7 +7,7 @@ end
 
 if installDir ~= "" then
     local fs = require("filesystem");
-    fs.makeDirectory(installDir);
+    fs.makeDirectory(installDir .. '/usr/lib');
 end
 
 shell.execute('rm -r ' .. installDir .. '/usr/lib/oop');
