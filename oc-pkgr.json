@@ -2,5 +2,8 @@
     "name": "oc-oop",
     "version": "1.0.2",
     "githubrepo": "myrddraall/oc-oop",
-    "description": ""
+    "description": "",
+    "install": {
+        "lib/oop/": "usr/lib/oop/*"
+    }
 }
