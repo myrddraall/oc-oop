@@ -17,7 +17,6 @@ function Event:get_cancelable()
     return self._cancelable;
 end
 
-
 function Event:preventDefault()
     if self._cancelable then
         self._defaultPrevented = true;
@@ -27,7 +26,6 @@ end
 function Event:get_isDefaultPrevented()
     return self._defaultPrevented;
 end
-
 
 function Event:get_bubbles()
     return self._bubbles;
