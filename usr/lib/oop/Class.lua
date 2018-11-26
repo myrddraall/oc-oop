@@ -24,6 +24,7 @@ function Properties:__newindex(k, v)
     end
 end
 
+
 local function Class(...)
     local class = mClass(...);
     local args = {...};
