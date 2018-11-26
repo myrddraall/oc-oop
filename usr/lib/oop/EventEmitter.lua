@@ -54,7 +54,6 @@ function EventEmitterMixin:_isSubscribedToEvent(event, callback)
     return true;
 end
 
-
 function EventEmitterMixin:_setParentEventEmitter(parent)
     self._parentEventEmitter = parent;
 end
