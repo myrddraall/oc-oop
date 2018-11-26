@@ -1,6 +1,5 @@
 local mClass = import("./middleclass");
 
-
 local Properties = {}
 
 function Properties:__index(k)
