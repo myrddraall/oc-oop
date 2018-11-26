@@ -1,8 +1,11 @@
 {
     "name": "oc-oop",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "githubrepo": "myrddraall/oc-oop",
     "description": "",
+    "packageDependancies":{
+        "myrddraall/oc-import": "^1.0.2"
+    },
     "install": {
         "lib/oop/": "usr/lib/oop/*"
     }
